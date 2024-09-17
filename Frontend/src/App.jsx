@@ -5,7 +5,8 @@ import { Route , Routes , BrowserRouter as Router, Navigate } from 'react-router
 import SignUp from './signup/SignUp';
 import Contact from './Contact/Contact';
 import { useAuth } from './context/AuthProvider';
-import AboutUs from './AboutUs/about';
+import AboutUs from './components/AboutUs';
+
 
 
 

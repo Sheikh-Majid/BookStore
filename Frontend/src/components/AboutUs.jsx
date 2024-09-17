@@ -1,11 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
 
 const AboutUs = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
+      <Navbar/>
       <main className="max-w-screen-2xl container mx-auto md:px-20 px-4  mt-40 mb-10">
         <h1 className="text-3xl font-bold text-center mb-8">
           About Books Store
