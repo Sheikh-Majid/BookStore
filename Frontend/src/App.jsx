@@ -5,7 +5,10 @@ import { Route , Routes , BrowserRouter as Router, Navigate } from 'react-router
 import SignUp from './signup/SignUp';
 import Contact from './Contact/Contact';
 import { useAuth } from './context/AuthProvider';
-import About from './about/about';
+import AboutUs from './AboutUs/about';
+
+
+
 
 function App() {
   const [authUser, setAuthUser] = useAuth();
@@ -23,7 +26,7 @@ function App() {
             />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<AboutUs/>} />
           </Routes>
         </Router>
       </div>

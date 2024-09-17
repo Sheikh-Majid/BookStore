@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const About = () => {
+const AboutUs = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -71,4 +71,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutUs;
