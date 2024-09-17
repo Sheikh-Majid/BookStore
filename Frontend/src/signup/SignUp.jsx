@@ -21,7 +21,7 @@ const SignUp = () => {
     try {
       setLoding(true);
       const response = await axios.post(
-        "http://localhost:4001/api/v1/user/register",
+        "https://bookstore-1-9tyf.onrender.com/api/v1/user/register",
         {
           name,
           email,

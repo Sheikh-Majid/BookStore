@@ -12,8 +12,8 @@ dotenv.config();
 const __dirname = path.resolve();
 // console.log(__dirname)
 const corsOptions = {
-  origin: "http://localhost:5173", 
-  credentials: true, 
+  origin: process.env.Url,
+  credentials: true,
 };
 app.use(cors(corsOptions));
 
